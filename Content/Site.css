@@ -20,6 +20,6 @@ textarea { min-height: 75px; }
 #welcome {margin: 5px;}
 #welcome h2 {margin: 15px 2px;}
 #content {padding: 5px 15px;}
-a.cv {background: url('../Content/images/pdf-file.png') no-repeat center right;padding-right: 23px;}
+a.cv {background: url('../images/pdf-file.png') no-repeat center right;padding-right: 23px;}
 #footer {margin: 0 auto; position:absolute; bottom: 0px;width: 100%;}
 #version {color: #dcdcdc;text-align: center;}
