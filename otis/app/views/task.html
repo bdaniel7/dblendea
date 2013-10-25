@@ -1,0 +1,9 @@
+<div ng-controller="TasksController">
+    <div>
+        <input type="hidden" value="{{Task.Id}}" />
+        <p>{{Task.Name}}</p>
+        <p>{{Task.Description}}</p>
+        due on {{Task.DueDate | date:'mediumDate' }}
+    </div>
+</div>
+<a ng-href="#/tasks">Back</a>
