@@ -1,0 +1,10 @@
+<p>The users</p>
+
+<div ng-controller="UsersCtrl">
+
+    <input type="text" focus />
+    <div ng-repeat="user in Users| orderBy:'LastName'">
+        <a ng-href="#/users/{{user.Id}}">{{user.listName()}}</a>
+    </div>
+</div>
+

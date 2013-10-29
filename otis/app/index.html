@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -28,7 +29,16 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div loadingbar>My loading text...</div>
+
+    <div class="hero-unit">
+        <h1>OTIS</h1>
+        <a ng-href="#/">Home</a>
+        <a ng-href="#/tasks">Tasks</a>
+        <a ng-href="#/users">Users</a>
+    </div>
+
+    <div class="container main" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <!--
@@ -73,6 +83,9 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/tasks.js"></script>
         <script src="scripts/services/tasks.js"></script>
+        <script src="scripts/controllers\users.js"></script>
+        <script src="scripts/services\users.js"></script>
+        <script src="scripts/directives\loadingbar.js"></script>
         <!-- endbuild -->
 </body>
 </html>
