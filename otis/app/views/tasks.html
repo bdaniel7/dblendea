@@ -1,6 +1,6 @@
 <p>The tasks.</p>
 
-<div ng-controller="TasksController">
+<div ng-controller="TasksCtrl">
 <div ng-repeat="task in Tasks| orderBy:'DueDate'">
     <a ng-href="#/tasks/{{task.Id}}">{{task.Name}}</a> due on {{task.DueDate | date:'mediumDate' }}
 </div>
